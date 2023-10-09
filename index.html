@@ -5,48 +5,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iskandar</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./assets/iB.svg">
   <script src="https://kit.fontawesome.com/a8dd7aa801.js" crossorigin="anonymous"></script>
-  <script src="./app.js" defer></script>
 </head>
 <body>
   <section id="home_section">
     <nav class="nav_top">
-      <img src="./assets/petpaw.png" alt="logo">
+      <img src="./assets/iB.svg" alt="logo">
       <ul>
         <li><a href="#home_section">HOME</a></li>
         <li><a href="#about_section">ABOUT</a></li>
         <li><a href="#project_section">PROJECT</a></li>
         <li><a href="#contact_section">CONTACT</a></li>
       </ul>
+      <i class="fa-solid fa-bars"></i>
     </nav>
     <div class="profile_division">
       <img src="./assets/profile_pic.png" alt="Iskandar">
       <div class="profile">
         <h1>Hello, I'm Iskandar</h1>
         <h2>Project Manager</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem illum tenetur sapiente reprehenderit rem culpa laboriosam distinctio corporis, esse dolorem.</p>
-        <button>ABOUT ME</button>
+        <p>I am an experienced project manager with a diverse skill set. Throughout my career, I have successfully led and delivered complex projects, demonstrating strong leadership, strategic thinking, and effective communication. My passion for optimizing processes and achieving project goals has consistently driven me to excel in my role.</p>
+        <a href="./assets/iB.svg" download><button>ABOUT ME</button></a>
       </div>
     </div>
   </section>
 
   <section id="about_section">
     <div class="roles">
-      <div class="role hidden">
-        <i class="fa-solid fa-building-shield role_icon"></i>
-        <h3>UI Design</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+      <div class="role">
+        <div class="front">
+          <i class="fa-solid fa-layer-group role_icon"></i>
+          <h3>Strategy development</h3>
+          <p>Establish and maintain solid client relationships.</p>
+          <button class="front_button">KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+        </div>
+        <div class="back">
+          <ul>
+            <li>Establish and maintain solid client relationships.</li>
+            <li>Analyze clients’ needs and expectations to establish strategic recommendations and budget proposals.</li>
+            <li>Counsel in content structure and technical solutions.</li>
+          </ul>
+          <button><span><i class="fa-solid fa-arrow-left small_span"></i></span> BACK</button>
+        </div>
       </div>
-      <div class="role hidden red">
-        <i class="fa-solid fa-building-shield role_icon"></i>
-        <h3>UI Design</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+      <div class="role red">
+        <div class="front">
+          <i class="fa-solid fa-trophy role_icon"></i>
+          <h3>Achievements</h3>
+          <p>Discover a diverse range of achievements</p>
+          <button class="front_button">KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+        </div>
+        <div class="back" id="over">
+          <ul id="overflow">
+            <li>Produced Comprehensive Manuals</li>
+            <li>Developed Formula Calculations for the Islah Index</li>
+            <li>Organized an International Conference</li>
+            <li>Streamlined processes and prioritized quality</li>
+            <li>Fostered collaboration and high-quality results</li>
+            <li>Explore each achievement for insights and collaboration opportunities.</li>
+          </ul>
+          <button><span><i class="fa-solid fa-arrow-left small_span"></i></span> BACK</button>
+        </div>
+        
       </div>
-      <div class="role hidden">
-        <i class="fa-solid fa-building-shield role_icon"></i>
-        <h3>UI Design</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+      <div class="role">
+        <div class="front">
+          <i class="fa-solid fa-file-pen role_icon"></i>
+          <h3>Skills</h3>
+          <p>Spanning from problem solving to Agile and Scrum methodologies</p>
+          <button class="front_button">KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+        </div>
+        <div class="back">
+          <ul>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Agile</li>
+            <li>Scrum</li>
+            <li>Risk Management</li>
+            <li>Reporting and Documentation</li>
+          </ul>
+          <button><span><i class="fa-solid fa-arrow-left small_span"></i></span> BACK</button>
+        </div>
       </div>
       <div class="role number">
         <h2>12</h2>
@@ -79,40 +119,33 @@
     <div class="intro">
       <div class="intro_name">
         <h3>FEATURED PROJECTS</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>A glimpse of my professional journey</p>
       </div>
       <div class="intro_button">
         <button>VIEW ALL</button>
       </div>
     </div>
     <div class="projects">
-      <div class="project hidden">
+      <div class="project">
         <div class="project_img">
-          <img src="./assets/petfood.jpg" alt="">
+          <img src="./assets/green_waqf.jpg" alt="">
         </div>
-        <h4>The Vintage</h4>
-        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+        <h4>Green Waqf Framework</h4>
+        <button>
+          <a href="https://www.undp.org/indonesia/publications/green-waqf-framework" target="_blank">KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span>
+          </a>
+        </button>
       </div>
-      <div class="project hidden">
+      <div class="project">
         <div class="project_img">
-          <img src="./assets/petfood.jpg" alt="">
+          <img src="./assets/islah_index.jpg" alt="">
         </div>
-        <h4>The Vintage</h4>
-        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
-      </div>
-      <div class="project hidden">
-        <div class="project_img">
-          <img src="./assets/petfood.jpg" alt="">
-        </div>
-        <h4>The Vintage</h4>
-        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
-      </div>
-      <div class="project hidden">
-        <div class="project_img">
-          <img src="./assets/petfood.jpg" alt="">
-        </div>
-        <h4>The Vintage</h4>
-        <button>KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span></button>
+        <h4>Islah Index</h4>
+        <button>
+          <a href="https://www.undp.org/indonesia/publications/green-waqf-framework">
+            KNOW MORE <span><i class="fa-solid fa-arrow-right small_span"></i></span>
+          </a>  
+        </button>
       </div>
     </div>
     <div class="nextProject">
@@ -134,7 +167,7 @@
       </ul>
     </nav>
     <footer>
-      <img src="./assets/petpaw.png" alt="logo">
+      <img src="./assets/iB.svg" alt="logo">
       <ul>
         <li><a href="#" title="Medium"><i class="fa-brands fa-medium"></i></a></li>
         <li><a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -143,5 +176,6 @@
       <p>Created by <a href="azalyarahmatika.com" class="reference">azalyaramatika</a></p>
     </footer>
   </section>
+  <script src="./app.js"></script>
 </body>
 </html>
